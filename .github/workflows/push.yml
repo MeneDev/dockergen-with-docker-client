@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@f7aca2fea76a5218f3c76cd5933c3ba1d8008774 #3.0.2
+        uses: elgohr/Publish-Docker-Github-Action@v5 #3.0.2
         with:
           name: menedev/dockergen-with-docker-client
           username: ${{ secrets.DOCKERHUB_USERNAME }}
